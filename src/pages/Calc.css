@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.171);
+
+}
+.container{
+    height: 75vh;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.input-div{
+    height: 7vh;
+    width: 70%;
+    background-color: gainsboro;
+}
+.input-div input{
+    height: 7vh;
+    width: 100%;
+    background-color: gainsboro;
+    border: none;
+    outline: none;
+    /* box-shadow: inset 2px 2px 2px 2px rgba(255, 255, 255, 0.692); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.button{
+    height: 50vh;
+    width: 70%;
+    /* background-color: rgba(0, 255, 255, 0.244); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.btn-1{
+    padding: 10px 17px ;
+    /* background-color: black; */
+    /* flex-wrap:wrap ; */
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+    background-color: rgba(60, 66, 72, 0.338);
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 4px 16px, rgba(17, 17, 26, 0.06) 0px 8px 32px;
+    
+}
+.btn-2{
+    padding: 10px 17px ;
+    /* font-size: 20px; */
+    font-weight: 800;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+    border: none;
+    border-radius: 5px;
+
+}
+.btn-3{
+    padding: 12px 17px ;
+    /* font-size: 20px; */
+    font-weight: 800;
+    color: white;
+    background-color:red;
+    border: none;
+    border-radius: 5px;
+
+}
+.div1{
+    display: flex;
+    gap: 10px;
+}
+
+

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul{
+  list-style-type: style bullet; ;
+
+}
+.hambar{
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 5vh;
+}
+.hambar::before{
+ content: "";
+ position: absolute;
+ width: 30px;
+height: 3px;
+background-color: orange; 
+top: 0; 
+transition: 1s;
+}
+
+.hambar::after{
+  content: "";
+  position: absolute;
+  width: 30px;
+ height: 3px;
+ background-color: orange;
+ bottom: 0;  
+ transition: 1s;
+ }
+
+ .cross::before{
+  content: "";
+  position: absolute;
+  width: 37px;
+ height: 3px;
+ background-color: orange; 
+ top: 0; 
+ transform: rotate(45deg);
+ transform-origin: left;
+  animation: corss 1s;
+  transition: 1s;
+
+ }
+ .cross::after{
+  content: "";
+  position: absolute;
+  width: 37px;
+ height: 3px;
+ background-color: orange; 
+ bottom: 0; 
+ transform: rotate(-45deg);
+ transform-origin: left;
+  animation: corss 1s;
+  transition: 1s;
+
+ }
+ /* @keyframes cross {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(45deg);
+  }
+  
+ } */
